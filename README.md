@@ -9,6 +9,6 @@
 + MySQL
 
 개발환경
-+ Intelij Community ![Intelij IDEA](https://img.shields.io/badge/Intelij%20IDEA-000000.svg?&style=for-the-badge&logo=Intelij%20IDEA&logoColor=white)
-+ Visual Studio Code ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+ ![Intelij IDEA](https://img.shields.io/badge/Intelij%20IDEA-000000.svg?&style=for-the-badge&logo=Intelij%20IDEA&logoColor=white)
+ ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
 
