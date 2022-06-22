@@ -2,11 +2,10 @@
 :book::book:SpringBoot JPA 쇼핑몰 개인 프로젝트
 
 사용기술
-+ Java 11
-+ SpringBoot
-+ JPA
-+ Maven
-+ MySQL
++ Front-End: HTML5, CSS, Thymeleaf, JavaScript, Ajax
++ Back-End: Java, SpringBoot, JPA
++ Build Tool: Maven
++ RDBMS: MySQL
 
 개발환경<br/><br/>
  ![Intelij IDEA](https://img.shields.io/badge/Intelij%20IDEA-000000.svg?&style=for-the-badge&logo=Intelij%20IDEA&logoColor=white)<br/>
