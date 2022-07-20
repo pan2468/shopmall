@@ -61,6 +61,13 @@
 </div>
 </details>
 
+<details>
+<summary><b>구매이력</b></summary>
+<div markdown="1">
+	<img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="750px" height="450px">
+</div>
+</details>
+
 ## 👉 핵심 기능
 
 ## 👉 핵심 트러블슈팅 경험 
