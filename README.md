@@ -62,6 +62,9 @@
 <summary><b>상품 등록</b></summary>
 <div markdown="2">
 	<img src="https://user-images.githubusercontent.com/58936137/180048894-e95a367c-3537-4a1f-a2f8-1072f855e446.png" width="750px" height="450px">
+	
+### 상품 INSERT
++ JpaRepository 인터페이스 save()메소드 이용해서 상품명, 가격, 재고, 상품 상세내용, 이미지 파일을 삽입합니다. 
 </div>
 </details>
 
