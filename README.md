@@ -231,6 +231,7 @@ public class ItemRepositoryCustomImpl implements ItemRepositoryCustom{
 <details>
 <summary><b>연관관계 매핑</b></summary>
 <div markdown="2">
+	
 ~~~
 
 import com.shop.constant.Role;
@@ -311,6 +312,7 @@ public class Cart extends BaseEntity{
     }
 }
 ~~~
+	
 ### 연관관계 일대일
 + @Column(name = "member_id")와 @JoinColumn(name = "member_id") 매핑합니다.
 + @OneToOne(fetch = FetchType.LAZY) 지연 로딩을 통해서 원하는 값만 출력
