@@ -34,13 +34,13 @@
 
 <div layout:fragment="content">
 
-	<div id="carouselControls" class="carousel slide margin" data-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active item">
-				<img class="d-block w-100 banner" src="https://img.hankyung.com/photo/202001/2010010817050801311_1.jpg" alt="First slide">
-			</div>
-		</div>
-	</div>
+<!--	<div id="carouselControls" class="carousel slide margin" data-ride="carousel">-->
+<!--		<div class="carousel-inner">-->
+<!--			<div class="carousel-item active item">-->
+<!--				<img class="d-block w-100 banner" src="https://img.hankyung.com/photo/202001/2010010817050801311_1.jpg" alt="First slide">-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
 
 	<input type="hidden" name="searchQuery" th:value="${itemSearchDto.searchQuery}">
 	<div th:if="${not #strings.isEmpty(itemSearchDto.searchQuery)}" class="center">
