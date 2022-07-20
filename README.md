@@ -25,7 +25,7 @@
 
 <details>
 <summary><b>로그인</b></summary>
-<div markdown="1">
+<div markdown="2">
 	<img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="750px" height="450px">
 </div>
 </details>
