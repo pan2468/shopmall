@@ -20,6 +20,10 @@
 ## 👉 서비스 화면
 
 <details>
+<summary><b>쇼핑몰 프로세스 화면</b></summary>
+<div markdown="1">
+
+<details>
 <summary><b>로그인</b></summary>
 <div markdown="1">
 	<img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="750px" height="450px">
@@ -65,6 +69,9 @@
 <summary><b>구매이력</b></summary>
 <div markdown="1">
 	<img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="750px" height="450px">
+</div>
+</details>
+
 </div>
 </details>
 
