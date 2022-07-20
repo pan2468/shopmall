@@ -18,7 +18,7 @@
 ## 👉 시퀀스 다이어그램
 
 ## 👉 서비스 화면
-<img src="https://user-images.githubusercontent.com/58936137/180047230-ca944331-6c40-43e8-9a05-e88703fdf42c.png" width="500px" height="450px"><img src="https://user-images.githubusercontent.com/58936137/180047764-3856a741-86e4-4f15-8344-eb117458f4d7.png" width="500px" height="450px">
+<img src="https://user-images.githubusercontent.com/58936137/180047230-ca944331-6c40-43e8-9a05-e88703fdf42c.png" width="400px" height="450px"><img src="https://user-images.githubusercontent.com/58936137/180047764-3856a741-86e4-4f15-8344-eb117458f4d7.png" width="400px" height="450px">
 
 ## 👉 핵심 기능
 
