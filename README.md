@@ -317,7 +317,7 @@ public class Cart extends BaseEntity{
 }
 ~~~
 
-### 연관 관계 다대일 매핑
+### 연관 관계 다대일 
 +  @ManyToOne(fetch = FetchType.LAZY) 지연로딩 통해서 여러 Entity와 조인하여 출력
 ~~~
 import com.shop.constant.OrderStatus;
