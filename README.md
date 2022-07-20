@@ -82,6 +82,10 @@
 <summary><b>장바구니</b></summary>
 <div markdown="2">
 	<img src="https://user-images.githubusercontent.com/58936137/180050505-1fe08553-d81e-490b-a2bb-14cbf32389b0.png" width="750px" height="450px">
+	
+### 장바구니
++ 메인 페이지 상품 상세화면에서 장바구니 담기 버튼 클릭
++ JpaRepository save() 메소드 이용하여 장바구니 목록 출력 
 </div>
 </details>
 
@@ -89,6 +93,10 @@
 <summary><b>구매이력</b></summary>
 <div markdown="2">
 	<img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="750px" height="450px">
+	
+### 구매이력
++ 장바구니 화면에서 체크박스 클릭 후 주문하기 버튼 클릭 
++ JpaRepository save() 메소드 이용하여 구매이력 목록 출력 
 </div>
 </details>
 
