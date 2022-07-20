@@ -54,6 +54,13 @@
 </div>
 </details>
 
+<details>
+<summary><b>장바구니</b></summary>
+<div markdown="1">
+	<img src="https://user-images.githubusercontent.com/58936137/180050505-1fe08553-d81e-490b-a2bb-14cbf32389b0.png" width="750px" height="450px">
+</div>
+</details>
+
 ## 👉 핵심 기능
 
 ## 👉 핵심 트러블슈팅 경험 
