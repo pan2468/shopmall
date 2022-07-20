@@ -47,6 +47,13 @@
 </div>
 </details>
 
+<details>
+<summary><b>상품 관리</b></summary>
+<div markdown="1">
+	<img src="https://user-images.githubusercontent.com/58936137/180050285-f3118855-a7df-4b9d-8dd5-f0ea1a90e2e6.png" width="750px" height="450px">
+</div>
+</details>
+
 ## 👉 핵심 기능
 
 ## 👉 핵심 트러블슈팅 경험 
