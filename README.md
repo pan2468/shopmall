@@ -28,10 +28,11 @@
 <div markdown="2">
 	<img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="750px" height="450px">
 	
+
+</div>
 	### 로그인 페이지
 	- email, password 입력을 합니다.
 	- SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
-</div>
 </details>
 
 <details>
