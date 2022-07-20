@@ -26,6 +26,13 @@
 </div>
 </details>
 
+<details>
+<summary><b>상품 등록</b></summary>
+<div markdown="1">
+	<img src="https://user-images.githubusercontent.com/58936137/180048894-e95a367c-3537-4a1f-a2f8-1072f855e446.png" width="650px" height="450px">
+</div>
+</details>
+
 ## 👉 핵심 기능
 
 ## 👉 핵심 트러블슈팅 경험 
