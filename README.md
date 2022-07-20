@@ -20,6 +20,13 @@
 ## 👉 서비스 화면
 
 <details>
+<summary><b>회원 가입</b></summary>
+<div markdown="1">
+	<img src="https://user-images.githubusercontent.com/58936137/180049355-85dea45f-0fb1-4022-b50f-ca0c8cdee334.png" width="650px" height="450px">
+</div>
+</details>
+
+<details>
 <summary><b>메인 페이지</b></summary>
 <div markdown="1">
 	<img src="https://user-images.githubusercontent.com/58936137/180047764-3856a741-86e4-4f15-8344-eb117458f4d7.png" width="650px" height="450px">
