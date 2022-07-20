@@ -110,7 +110,6 @@
 	
 ~~~
 
-
 import com.querydsl.core.QueryResults;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
@@ -226,6 +225,96 @@ public class ItemRepositoryCustomImpl implements ItemRepositoryCustom{
 
 ~~~
 	
+</div>
+</details>
+
+<details>
+<summary><b>연관관계 매핑</b></summary>
+<div markdown="2">
+~~~
+
+import com.shop.constant.Role;
+import com.shop.dto.MemberFormDto;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "member")
+@Getter @Setter
+@ToString
+public class Member extends BaseEntity{
+
+    @Id
+    @Column(name = "member_id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    private String name;
+
+    @Column(unique = true)
+    private String email;
+
+    private String password;
+
+    private String address;
+
+    @Enumerated(EnumType.STRING)
+    private Role role;
+
+    public static Member createMember(MemberFormDto memberFormDto, PasswordEncoder passwordEncoder){
+
+        Member member = new Member();
+        member.setName(memberFormDto.getName());
+        member.setEmail(memberFormDto.getEmail());
+        member.setAddress(memberFormDto.getAddress());
+        String password = passwordEncoder.encode(memberFormDto.getPassword());
+        member.setPassword(password);
+        member.setRole(Role.ADMIN);
+        return member;
+    }
+
+}
+
+~~~
+
+~~~
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "cart")
+@Getter @Setter
+@ToString
+public class Cart extends BaseEntity{
+
+    @Id
+    @Column(name = "cart_id")
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "member_id")
+    private Member member;
+
+    public static Cart createCart(Member member){
+        Cart cart = new Cart();
+        cart.setMember(member);
+        return cart;
+    }
+}
+~~~
+### 연관관계 일대일
++ @Column(name = "member_id")와 @JoinColumn(name = "member_id") 매핑합니다.
++ @OneToOne(fetch = FetchType.LAZY) 지연 로딩을 통해서 원하는 값만 출력
+
 </div>
 </details>
 
