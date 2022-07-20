@@ -72,6 +72,9 @@
 <summary><b>상품 관리</b></summary>
 <div markdown="2">
 	<img src="https://user-images.githubusercontent.com/58936137/180050285-f3118855-a7df-4b9d-8dd5-f0ea1a90e2e6.png" width="750px" height="450px">
+	
+### 상품 관리 목록 출력
++ JpaRepository 인터페이스 findAll() 메소드를 이용하여 공지사항에 상품 조회 출력
 </div>
 </details>
 
