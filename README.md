@@ -22,7 +22,7 @@
 <details>
 <summary><b>회원 가입</b></summary>
 <div markdown="1">
-	<img src="https://user-images.githubusercontent.com/58936137/180049355-85dea45f-0fb1-4022-b50f-ca0c8cdee334.png" width="750px" height="450px">
+	<img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="750px" height="450px">
 </div>
 </details>
 
