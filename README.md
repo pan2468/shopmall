@@ -229,7 +229,7 @@ public class ItemRepositoryCustomImpl implements ItemRepositoryCustom{
 </details>
 
 <details>
-<summary><b>연관관계 매핑</b></summary>
+<summary><b>연관 관계 매핑</b></summary>
 <div markdown="2">
 
 ### 연관 관계 일대일
