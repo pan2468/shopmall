@@ -20,7 +20,7 @@
 ## 👉 서비스 화면
 
 <details>
-<summary><b>쇼핑몰 프로세스 화면</b></summary>
+<summary><b>쇼핑몰 사용 메뉴얼</b></summary>
 <div markdown="1">
 
 <details>
