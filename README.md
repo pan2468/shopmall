@@ -17,7 +17,7 @@
 + MySQL
 
 ## 👉 시퀀스 다이어그램
-<img src="https://user-images.githubusercontent.com/58936137/180194339-3151b09b-257c-4b41-b987-6a9dbf1d6b2d.png" width="650px" height="500px">
+<img src="https://user-images.githubusercontent.com/58936137/180194339-3151b09b-257c-4b41-b987-6a9dbf1d6b2d.png" width="750px" height="500px">
 ## 👉 프로세스 화면
 
 <details>
