@@ -108,6 +108,26 @@
 </details>
 
 ## 👉 핵심 기능
+
+
+<details>
+<summary><b>QueryDSL 설정</b></summary>
+<div markdown="2">
+~~~
+
+<dependency>
+	<groupId>com.querydsl</groupId>
+	<artifactId>querydsl-jpa</artifactId>
+</dependency>
+<dependency>
+	<groupId>com.querydsl</groupId>
+	<artifactId>querydsl-apt</artifactId>
+</dependency>
+~~~
+</div>
+</details>
+
+
 <details>
 <summary><b>QueryDSL 객체지향 쿼리</b></summary>
 <div markdown="2">
