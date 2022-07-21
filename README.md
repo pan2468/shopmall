@@ -109,12 +109,11 @@
 
 ## 👉 핵심 기능
 
-
 <details>
 <summary><b>QueryDSL 설정</b></summary>
 <div markdown="2">
+	
 ~~~
-
 <dependency>
 	<groupId>com.querydsl</groupId>
 	<artifactId>querydsl-jpa</artifactId>
@@ -124,6 +123,7 @@
 	<artifactId>querydsl-apt</artifactId>
 </dependency>
 ~~~
+	
 </div>
 </details>
 
