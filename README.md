@@ -145,7 +145,7 @@
 
 #### QueryDSL 세팅
 	
-+ Ctrl + Alt + Shift + S -> Modules -> Sources 클릭
++ Ctrl + Alt + Shift + S -> Modules -> Sources -> generated-sources 클릭
 	
 <img src="https://user-images.githubusercontent.com/58936137/180259777-92bd337c-d209-48a3-a7f2-53c19c90bdda.png" width="700px" height="500px">
 	
