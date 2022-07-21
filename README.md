@@ -144,7 +144,8 @@
 ~~~
 
 #### QueryDSL 세팅	
-	<strong>Ctrl + Alt + Shift + S -> Modules -> Sources 클릭</strong>
+	+ Ctrl + Alt + Shift + S -> Modules -> Sources 클릭
+	
 	<img src="https://user-images.githubusercontent.com/58936137/180259777-92bd337c-d209-48a3-a7f2-53c19c90bdda.png" width="500px" height="450px">
 	
 </div>
