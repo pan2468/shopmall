@@ -15,7 +15,7 @@
 + QueryDSL 5.0.0
 + Maven
 + MySQL
-## 👉 시퀀스 다이어그램
+
 
 ## 👉 프로세스 화면
 
@@ -396,7 +396,7 @@ public class Order extends BaseEntity{
 </details>
 
 
-## 👉 핵심 트러블슈팅 경험 
+
    
 
 
