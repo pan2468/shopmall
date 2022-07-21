@@ -19,6 +19,8 @@
 ## 👉 시퀀스 다이어그램
 <img src="https://user-images.githubusercontent.com/58936137/180196096-be17382c-1765-4950-9e6d-9e78e2d73deb.png" width="800px" height="450px">
 
+<img src="https://user-images.githubusercontent.com/58936137/180209395-76fb3796-836c-49f2-a94b-ea322bf19422.png" width="800px" height="450px">
+
 ## 👉 프로세스 화면
 
 <details>
