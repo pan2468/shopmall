@@ -28,7 +28,7 @@
 ## 👉 서비스 화면
 
 <video width="500px" height="500px" controls="controls">
-  <source src="C:\Users\pan11\Videos\Captures\shop.mp4" type="video/mp4">
+  <source src="https://user-images.githubusercontent.com/58936137/180419881-0c13ab86-2bcb-4b71-bf35-8a75dcff889d.mp4">
 </video>
 
 <details>
