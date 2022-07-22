@@ -31,8 +31,6 @@
   <source src="C:/Users/pan11/Videos/Captures/Chrome 2022-07-22 18-54-13.mp4" type="video/mp4">
 </video>
 
-<iframe id="video" width="600px" height="500px" src="" frameborder="0"></iframe>
-
 <details>
 <summary><b>쇼핑몰 사용 메뉴얼</b></summary>
 <div markdown="1">
