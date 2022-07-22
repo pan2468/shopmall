@@ -27,6 +27,8 @@
 
 ## 👉 서비스 화면
 
+<img src="Title - Chrome 2022-07-22 18-54-13.mp4" width="600px" height="500px">
+
 <details>
 <summary><b>쇼핑몰 사용 메뉴얼</b></summary>
 <div markdown="1">
