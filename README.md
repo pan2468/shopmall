@@ -29,7 +29,7 @@
 
 
 
-<img src="https://user-images.githubusercontent.com/58936137/180419881-0c13ab86-2bcb-4b71-bf35-8a75dcff889d.mp4" width="500px" height="500px">
+<img src="https://user-images.githubusercontent.com/58936137/180419881-0c13ab86-2bcb-4b71-bf35-8a75dcff889d." width="500px" height="500px">
 
 <details>
 <summary><b>쇼핑몰 사용 메뉴얼</b></summary>
