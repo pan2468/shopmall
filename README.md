@@ -28,7 +28,7 @@
 ## 👉 서비스 화면
 
 <video width="500px" height="500px" controls="controls">
-  <source src="C:\Users\pan11\Videos\Captures\공지사항 - Chrome 2022-06-25 23-19-52.mp4" type="video/mp4">
+  <source src="C:\Users\pan11\Videos\Captures\shop.mp4" type="video/mp4">
 </video>
 
 <details>
