@@ -27,7 +27,7 @@
 
 ## 👉 서비스 화면
 
-<iframe id="video" width="600px" height="500px" src="C:\Users\pan11\Videos\Captures/Title - Chrome 2022-07-22 18-54-13.mp4" frameborder="0"></iframe>
+<iframe id="video" width="600px" height="500px" src="C:\Users\pan11\Videos\Captures/Chrome 2022-07-22 18-54-13.mp4" frameborder="0"></iframe>
 
 <details>
 <summary><b>쇼핑몰 사용 메뉴얼</b></summary>
