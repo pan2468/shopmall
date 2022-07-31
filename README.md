@@ -231,16 +231,13 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 + cartItemRepository.findCartDetailDtoList(cart.getId()); 메소드 이용하여 장바구니 목록 출력 
 
 
-<details>
-<summary><b>구매이력</b></summary>
-<div markdown="2">
-	<img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="750px" height="450px">
+### ✔ 주문하기
 
-### 구매이력
-+ cartItemRepository.findCartDetailDtoList(cart.getId()); 메소드 이용하여 구매이력 목록 출력 
+<img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="500px" height="300px">
 
-</div>
-</details>
++ 장바구니 메뉴에서 주문하기 클릭 > 구매이력 findById() 상세    
+
+
 
 
 
