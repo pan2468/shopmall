@@ -35,6 +35,27 @@
 + 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
 + JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
 
+#### MemberController.class
+
+~~~
+    @PostMapping(value = "/new")
+    public String newMember(@Valid MemberFormDto memberFormDto,
+                            BindingResult bindingResult, Model model){
+        if(bindingResult.hasErrors()){
+            return "member/memberForm";
+        }
+
+        try{
+            Member member = Member.createMember(memberFormDto,passwordEncoder);
+            memberService.saveMember(member);
+        }catch (IllegalStateException e){
+            model.addAttribute("errorMessage",e.getMessage());
+            return "member/memberForm";
+        }
+        return "redirect:/";
+    }
+~~~
+
 #### MemberService.class
 
 ~~~
