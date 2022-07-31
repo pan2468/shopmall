@@ -144,8 +144,8 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 <img src="https://user-images.githubusercontent.com/58936137/180047764-3856a741-86e4-4f15-8344-eb117458f4d7.png" width="500px" height="300px">
 	
-+ 로그인 인증 성공시 redirect:/ 메인 페이지로 이동합니다.
-+ ADMIN 로그인 시도 > 상품등록, 상품관리 메뉴가 링크 호출이 됩니다. 
++ 로그인 인증 성공시 redirect:/ 메인 페이지로 이동
++ ADMIN 로그인 시도 > 상품등록, 상품관리 메뉴가 링크 호출
 
 
 ### ✔ 상품 등록
@@ -179,7 +179,7 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 ~~~
 	
-+ JpaRepository 인터페이스 save()메소드 이용해서 상품명, 가격, 재고, 상품 상세내용, 이미지 파일을 삽입합니다. 
++ JpaRepository 인터페이스 save() 메소드 이용해서 상품명, 가격, 재고, 상품 상세내용, 이미지 파일 저장 
 	
 </div>
 </details>
