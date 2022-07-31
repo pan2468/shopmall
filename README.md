@@ -85,6 +85,9 @@
 + SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
 + loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
 
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
 
 #### MemberService.class
 ~~~
@@ -104,6 +107,8 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
     }
 ~~~
 
+</div>
+</details>
 
 
 <details>
