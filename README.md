@@ -137,17 +137,13 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 
 
+### ✔ 메인페이지
 
-<details>
-<summary><b>메인 페이지</b></summary>
-<div markdown="2">
-	<img src="https://user-images.githubusercontent.com/58936137/180047764-3856a741-86e4-4f15-8344-eb117458f4d7.png" width="500px" height="300px">
-
-### 메인페이지 
+<img src="https://user-images.githubusercontent.com/58936137/180047764-3856a741-86e4-4f15-8344-eb117458f4d7.png" width="500px" height="300px">
+	
 + 로그인 인증 성공시 redirect:/ 메인 페이지로 이동합니다.
 + ADMIN 로그인 시도 > 상품등록, 상품관리 메뉴가 링크 호출이 됩니다. 
-</div>
-</details>
+
 
 <details>
 <summary><b>상품 등록</b></summary>
