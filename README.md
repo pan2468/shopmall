@@ -54,9 +54,7 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 ~~~
 
 
-<details>
-<summary><b>서비스 화면</b></summary>
-<div markdown="1">
+
 
 
 	
@@ -126,8 +124,7 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 </div>
 </details>
 
-</div>
-</details>
+
 
 
 
