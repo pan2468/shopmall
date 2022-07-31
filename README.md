@@ -235,7 +235,7 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 
 <img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="500px" height="300px">
 
-+ 장바구니 메뉴에서 주문하기 클릭 > 구매이력 findById() 상세    
++ 장바구니 메뉴에서 주문하기 클릭 > 구매이력 findById() 상세출력    
 
 
 
