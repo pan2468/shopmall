@@ -184,7 +184,7 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 ### ✔ 상품 관리
 
-<img src="https://user-images.githubusercontent.com/58936137/180050285-f3118855-a7df-4b9d-8dd5-f0ea1a90e2e6.png" width="750px" height="450px">
+<img src="https://user-images.githubusercontent.com/58936137/180050285-f3118855-a7df-4b9d-8dd5-f0ea1a90e2e6.png" width="500px" height="300px">
 
 #### ItemService.class
 ~~~
@@ -202,16 +202,34 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 + JpaRepository 인터페이스 findAll() 메소드를 이용하여 공지사항에 상품 조회 출력
 
 
-<details>
-<summary><b>장바구니</b></summary>
-<div markdown="2">
-	<img src="https://user-images.githubusercontent.com/58936137/180050505-1fe08553-d81e-490b-a2bb-14cbf32389b0.png" width="750px" height="450px">
+### ✔ 장바구니
 
-### 장바구니
+<img src="https://user-images.githubusercontent.com/58936137/180050505-1fe08553-d81e-490b-a2bb-14cbf32389b0.png" width="500px" height="300px">
+
+#### CartController.class
+~~~
+    @GetMapping(value = "/cart")
+    public String orderHist(Principal principal, Model model){
+        List<CartDetailDto> cartDetailList = cartService.getCartList(principal.getName());
+        model.addAttribute("cartItems",cartDetailList);
+        return "cart/cartList";
+    }
+~~~
+
+#### CartService.class
+~~~
+cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
+~~~
+
+#### CartItemRepository.class
+~~~
+ @Query("select new com.shop.dto.CartDetailDto(ci.id, i.itemNm, i.price, ci.count, im.imgUrl)from CartItem ci, ItemImg im join ci.item i where ci.cart.id = :cartId and im.item.id = ci.item.id and im.repimgYn = 'Y' order by ci.regTime desc")
+    List<CartDetailDto> findCartDetailDtoList(Long cartId);
+~~~
+
 + 메인 페이지 상품 상세화면에서 장바구니 담기 버튼 클릭
 + JpaRepository save() 메소드 이용하여 장바구니 목록 출력 
-</div>
-</details>
+
 
 <details>
 <summary><b>구매이력</b></summary>
