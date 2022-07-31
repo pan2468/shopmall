@@ -309,7 +309,7 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 
 
 <details>
-<summary><b>QueryDSL 객체지향 쿼리</b></summary>
+<summary><b> findAll() 메소드의 복잡한 쿼리를 QueryDSL 이용하여 개선</b></summary>
 <div markdown="2">
 	
 ~~~
@@ -345,38 +345,6 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 
 ~~~
 
-~~~
-    @Override
-    public Page<MainItemDto> getMainItemPage(ItemSearchDto itemSearchDto, Pageable pageable) {
-
-        QItem item = QItem.item;
-        QItemImg itemImg = QItemImg.itemImg;
-
-        QueryResults<MainItemDto> results = queryFactory
-                .select(
-                        new QMainItemDto(
-                                item.id,
-                                item.itemNm,
-                                item.itemDetail,
-                                itemImg.imgUrl,
-                                item.price)
-                )
-                .from(itemImg)
-                .join(itemImg.item,item)
-                .where(itemImg.repimgYn.eq("Y"))
-                .where(itemNmLike(itemSearchDto.getSearchQuery()))
-                .orderBy(item.id.desc())
-                .offset(pageable.getOffset())
-                .limit(pageable.getPageSize())
-                .fetchResults();
-
-        List<MainItemDto> content = results.getResults();
-        long total = results.getTotal();
-        return new PageImpl<>(content, pageable, total);
-    }
-}
-
-~~~
 	
 </div>
 </details>
