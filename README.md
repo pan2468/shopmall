@@ -29,17 +29,11 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/182033941-4ab87eb4-c0d0-402e-9fea-a753c1d7a92e.gif" width="500px" height="300px">
 
-<details>
-<summary><b>서비스 화면</b></summary>
-<div markdown="1">
+### 로그인 
 
-<details>
-<summary><b>로그인</b></summary>
-<div markdown="2">
+<img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
 
-<img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="750px" height="450px">
-
-### 로그인 인증
+### 로그인하기
 + email, password 입력을 합니다.
 + SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
 
@@ -59,9 +53,14 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
                 .build();
     }
 ~~~
+
+
+<details>
+<summary><b>서비스 화면</b></summary>
+<div markdown="1">
+
+
 	
-</div>
-</details>
 
 <details>
 <summary><b>회원 가입</b></summary>
