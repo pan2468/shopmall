@@ -28,7 +28,7 @@
 ## 💡 서비스 화면
  
 
-### 회원 가입
+### ✔ 회원 가입
 
 <img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="500px" height="300px">
 
@@ -78,7 +78,7 @@
 
 
 
-### 로그인하기 
+### ✔ 로그인하기 
 
 <img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
 
@@ -111,7 +111,7 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 + loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
 
 
-### Spring Security 설정
+### ✔ Spring Security 설정
 
 #### SecurityConfig.class
 ~~~
