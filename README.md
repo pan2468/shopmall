@@ -111,6 +111,40 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 + loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
 
 
+### Spring Security 설정
+
+#### SecurityConfig.class
+~~~
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception{
+        http.formLogin()
+                .loginPage("/members/login")
+                .defaultSuccessUrl("/")
+                .usernameParameter("email")
+                .failureUrl("/members/login/error")
+                .and()
+                .logout()
+                .logoutRequestMatcher(new AntPathRequestMatcher("/members/logout"))
+                .logoutSuccessUrl("/");
+
+        http.authorizeRequests()
+                .mvcMatchers("/","/members/**",
+                                    "/item/**","images/**").permitAll()
+                .mvcMatchers("/admin/**").hasRole("ADMIN")
+                .anyRequest().authenticated();
+
+        http.exceptionHandling()
+                .authenticationEntryPoint(new CustomAuthenticationEntryPoint());
+    }
+~~~
+
+
++ SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
++ loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
+
+
+
 
 
 <details>
