@@ -27,7 +27,7 @@
 
 ## 👉 서비스 화면
 
-<img src="ezgif.com-gif-maker.gif" width="800px" height="450px">
+<img src="![ezgif com-gif-maker](https://user-images.githubusercontent.com/58936137/182032946-4540b261-a005-470e-b4e2-0cf7c93f5916.gif)" width="800px" height="450px">
 
 
 <details>
