@@ -20,10 +20,6 @@
 + Maven
 + MySQL
 
-### 🛠 개발환경
-+ InteliJ
-+ VS Code
-
 ## 👉 시퀀스 다이어그램
 
 <img src="https://user-images.githubusercontent.com/58936137/180211415-6fb8869f-1fe0-4dc6-98fb-e76c55b335bf.png" width="800px" height="450px">
