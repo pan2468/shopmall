@@ -228,7 +228,7 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 ~~~
 
 + 메인 페이지 상품 상세화면에서 장바구니 담기 버튼 클릭
-+ JpaRepository save() 메소드 이용하여 장바구니 목록 출력 
++ cartItemRepository.findCartDetailDtoList(cart.getId()); 메소드 이용하여 장바구니 목록 출력 
 
 
 <details>
@@ -238,6 +238,7 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 
 ### 구매이력
 + cartItemRepository.findCartDetailDtoList(cart.getId()); 메소드 이용하여 구매이력 목록 출력 
+
 </div>
 </details>
 
