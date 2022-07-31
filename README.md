@@ -36,10 +36,11 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="500px" height="300px">
 
-
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
 
 #### MemberController.class
-
 ~~~
     @PostMapping(value = "/new")
     public String newMember(@Valid MemberFormDto memberFormDto,
@@ -68,20 +69,19 @@
     }
 ~~~
 
-
 + 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
 + JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
-
-
-
-</br>
-
+</div>
+</details>
 
 
 ### ✔ 로그인하기 
 
 <img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
 
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
 
 #### MemberService.class
 ~~~
@@ -104,6 +104,9 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 + SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
 + loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
+
+</div>
+</details>
 
 
 ### ✔ Spring Security 설정
@@ -153,6 +156,10 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 <img src="https://user-images.githubusercontent.com/58936137/180048894-e95a367c-3537-4a1f-a2f8-1072f855e446.png" width="500px" height="300px">
 
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
+
 #### ItemService.class
 ~~~
 	   public Long saveItem(ItemFormDto itemFormDto, List<MultipartFile> itemImgFileList) throws Exception {
@@ -186,6 +193,10 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 <img src="https://user-images.githubusercontent.com/58936137/180050285-f3118855-a7df-4b9d-8dd5-f0ea1a90e2e6.png" width="500px" height="300px">
 
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
+
 #### ItemService.class
 ~~~
     @Transactional(readOnly = true)
@@ -201,10 +212,17 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 + JpaRepository 인터페이스 findAll() 메소드를 이용하여 공지사항에 상품 조회 출력
 
+</div>
+</details>
+
 
 ### ✔ 장바구니
 
 <img src="https://user-images.githubusercontent.com/58936137/180050505-1fe08553-d81e-490b-a2bb-14cbf32389b0.png" width="500px" height="300px">
+
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
 
 #### CartController.class
 ~~~
@@ -230,13 +248,14 @@ cartDetailDtoList = cartItemRepository.findCartDetailDtoList(cart.getId());
 + 메인 페이지 상품 상세화면에서 장바구니 담기 버튼 클릭
 + cartItemRepository.findCartDetailDtoList(cart.getId()); 메소드 이용하여 장바구니 목록 출력 
 
+</div>
+</details>
 
 ### ✔ 주문하기
 
 <img src="https://user-images.githubusercontent.com/58936137/180050705-1e926b70-604b-4ddb-b2a4-a52d976b2a12.png" width="500px" height="300px">
 
 + 장바구니 메뉴에서 주문하기 클릭 > 구매이력 findById() 상세출력    
-
 
 
 
