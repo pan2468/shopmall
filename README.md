@@ -29,6 +29,16 @@
 
 ### 로그인하기  
 
+### 회원 가입
+
+<img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="750px" height="450px">
+
+### 회원가입 insert
++ 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
++ JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
+
+### 로그인
+
 <img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
 
 ### 로그인 인증하기
@@ -54,22 +64,6 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 ~~~
 
 
-
-
-
-	
-
-<details>
-<summary><b>회원 가입</b></summary>
-<div markdown="2">
-	<img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="750px" height="450px">
-
-### 회원가입 insert
-+ 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
-+ JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
-
-</div>
-</details>
 
 <details>
 <summary><b>메인 페이지</b></summary>
