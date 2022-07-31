@@ -149,13 +149,34 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 + ADMIN 로그인 시도 > 상품등록, 상품관리 메뉴가 링크 호출이 됩니다. 
 
 
-<details>
-<summary><b>상품 등록</b></summary>
-<div markdown="2">
-	<img src="https://user-images.githubusercontent.com/58936137/180048894-e95a367c-3537-4a1f-a2f8-1072f855e446.png" width="750px" height="450px">
+### ✔ 상품 등록
 
-### 상품 INSERT
+<img src="https://user-images.githubusercontent.com/58936137/180048894-e95a367c-3537-4a1f-a2f8-1072f855e446.png" width="500px" height="300px">
+
+~~~
+	   public Long saveItem(ItemFormDto itemFormDto, List<MultipartFile> itemImgFileList) throws Exception {
+
+        //상품 등록
+        Item item = itemFormDto.createItem();
+        itemRepository.save(item);
+
+        //이미지 등록
+        for(int i=0; i<itemImgFileList.size(); i++){
+            ItemImg itemImg = new ItemImg();
+            itemImg.setItem(item);
+            if(i == 0)
+                itemImg.setRepimgYn("Y");
+            else
+                itemImg.setRepimgYn("N");
+            itemImgService.saveItemImg(itemImg, itemImgFileList.get(i));
+        }
+        return item.getId();
+    }
+
+~~~
+	
 + JpaRepository 인터페이스 save()메소드 이용해서 상품명, 가격, 재고, 상품 상세내용, 이미지 파일을 삽입합니다. 
+	
 </div>
 </details>
 
