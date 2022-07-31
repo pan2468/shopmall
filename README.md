@@ -27,7 +27,7 @@
 
 ## 👉 서비스 화면
 
-### 로그인 및 
+### 🎞 로그인 및 회원가입
 
 <img src="https://user-images.githubusercontent.com/58936137/182032946-4540b261-a005-470e-b4e2-0cf7c93f5916.gif" width="500px" height="300px">
 
