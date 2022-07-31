@@ -31,6 +31,12 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/182033639-565713b2-9ffb-4d15-a7c9-3f7b85991fe5.gif" width="500px" height="300px">
 
+### 상품 등록
+
+<img src="https://user-images.githubusercontent.com/58936137/182033941-4ab87eb4-c0d0-402e-9fea-a753c1d7a92e.gif" width="500px" height="300px">
+
+
+
 
 <details>
 <summary><b>서비스 화면</b></summary>
