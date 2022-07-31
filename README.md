@@ -27,7 +27,7 @@
 
 ## 👉 서비스 화면
 
-<img src="https://user-images.githubusercontent.com/58936137/182032946-4540b261-a005-470e-b4e2-0cf7c93f5916.gif" width="500px" height="350px">
+<img src="https://user-images.githubusercontent.com/58936137/182032946-4540b261-a005-470e-b4e2-0cf7c93f5916.gif" width="500px" height="300px">
 
 
 <details>
