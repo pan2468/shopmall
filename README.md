@@ -35,6 +35,10 @@
 + 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
 + JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
 
+<details>
+<summary><b>개선 코드</b></summary>
+<div markdown="2">
+
 #### MemberController.class
 
 ~~~
@@ -64,6 +68,11 @@
         return memberRepository.save(member);
     }
 ~~~
+
+</div>
+</details>
+
+
 
 
 
