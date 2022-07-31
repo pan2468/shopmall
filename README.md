@@ -27,7 +27,7 @@
 
 ## 👉 서비스 화면
 
-### 👉 로그인  
+### 로그인하기  
 
 <img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
 
