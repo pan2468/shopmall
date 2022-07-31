@@ -27,6 +27,9 @@
 
 ## 👉 서비스 화면
 
+<img src="ezgif.com-gif-maker.gif" width="800px" height="450px">
+
+
 <details>
 <summary><b>서비스 화면</b></summary>
 <div markdown="1">
