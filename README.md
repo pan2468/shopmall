@@ -42,6 +42,24 @@
 ### 로그인 인증
 + email, password 입력을 합니다.
 + SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
+
+~~~
+@Override
+public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+	Member member = memberRepository.findByEmail(email);
+
+        if(member == null){
+            throw new UsernameNotFoundException(email);
+        }
+
+        return User.builder()
+                .username(member.getEmail())
+                .password(member.getPassword())
+                .roles(member.getRole().toString())
+                .build();
+    }
+~~~
+	
 </div>
 </details>
 
