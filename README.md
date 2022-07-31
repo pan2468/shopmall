@@ -131,8 +131,8 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 ~~~
 
 
-+ 로그인 접속시도 -> email 값을 받아 인증 성공하면 .defaultSuccessUrl("/") 관리자 메인 페이지로 이동
-+ 로그아웃 -> .logoutSuccessUrl("/") 메인 페이지 이동
++ 로그인 접속시도 > email 값을 받아 인증 성공하면 .defaultSuccessUrl("/") 관리자 메인 페이지로 이동
++ 로그아웃 > .logoutSuccessUrl("/") 메인 페이지 이동
 
 
 
@@ -145,7 +145,7 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 
 ### 메인페이지 
 + 로그인 인증 성공시 redirect:/ 메인 페이지로 이동합니다.
-+ ADMIN 로그인 시도 -> 상품등록, 상품관리 메뉴가 링크 호출이 됩니다. 
++ ADMIN 로그인 시도 > 상품등록, 상품관리 메뉴가 링크 호출이 됩니다. 
 </div>
 </details>
 
