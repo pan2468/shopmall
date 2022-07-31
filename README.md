@@ -140,8 +140,8 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
 ~~~
 
 
-+ SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
-+ loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
++ 로그인 접속시도 -> email 값을 받아 인증 성공하면 .defaultSuccessUrl("/") 관리자 메인 페이지로 이동
++ 로그아웃 -> .logoutSuccessUrl("/") 메인 페이지 이동
 
 
 
