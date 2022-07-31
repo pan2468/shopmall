@@ -29,7 +29,7 @@
 
 ### 🎞 로그인 및 회원가입
 
-<img src="https://user-images.githubusercontent.com/58936137/182032946-4540b261-a005-470e-b4e2-0cf7c93f5916.gif" width="500px" height="300px">
+<img src="https://user-images.githubusercontent.com/58936137/182033639-565713b2-9ffb-4d15-a7c9-3f7b85991fe5.gif" width="500px" height="300px">
 
 
 <details>
