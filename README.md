@@ -32,9 +32,20 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="500px" height="300px">
 
-### 회원가입 insert
+### 회원 가입하기
 + 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
 + JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
+
+#### MemberService.class
+
+~~~
+   public Member saveMember(Member member){
+        validateDuplicateMember(member);
+        return memberRepository.save(member);
+    }
+~~~
+
+
 
 ### 로그인하기 
 
@@ -45,6 +56,7 @@
 + loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
 
 
+#### MemberService.class
 ~~~
 @Override
 public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
