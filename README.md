@@ -32,9 +32,7 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/180049754-499d18ee-37ec-4c2b-91a3-3c869f5b1cd1.png" width="500px" height="300px">
 
-<details>
-<summary><b>개선 코드</b></summary>
-<div markdown="2">
+
 
 #### MemberController.class
 
@@ -66,8 +64,6 @@
     }
 ~~~
 
-</div>
-</details>
 
 + 이름, 이메일 주소, 비밀번호, 주소를 입력합니다.
 + JpaRepository 인터페이스 save() 메소드를 이용하여 등록하여 INSERT 삽입합니다. 
@@ -82,9 +78,6 @@
 
 <img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
 
-<details>
-<summary><b>개선 코드</b></summary>
-<div markdown="2">
 
 #### MemberService.class
 ~~~
@@ -104,8 +97,6 @@ public UserDetails loadUserByUsername(String email) throws UsernameNotFoundExcep
     }
 ~~~
 
-</div>
-</details>
 
 + SpringSecurity 보안프레임워크에서 UserDetailsService 사용하여 로그인 인증
 + loadUserByUsername 메소드 매개변수 email 값을 받아 인증 확인
