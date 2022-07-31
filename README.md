@@ -27,8 +27,6 @@
 
 ## 👉 서비스 화면
 
-<img src="https://user-images.githubusercontent.com/58936137/182033941-4ab87eb4-c0d0-402e-9fea-a753c1d7a92e.gif" width="500px" height="300px">
-
 ### 👉 로그인  
 
 <img src="https://user-images.githubusercontent.com/58936137/180049925-15194daf-d78d-4402-a48c-30da56db3bb3.png" width="500px" height="300px">
